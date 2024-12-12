@@ -78,7 +78,7 @@ con <- dbConnect(MariaDB(),
                  host = "localhost",
                  port = 3306,
                  user = "root",
-                 password = "cFryGv#3174")
+                 password = "")
 
 ### Push the current data
 dbWriteTable(con, "air_quality", combined_data, append=TRUE, row.names=FALSE)
